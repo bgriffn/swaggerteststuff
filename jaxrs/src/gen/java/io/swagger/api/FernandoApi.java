@@ -1,8 +1,8 @@
 package io.swagger.api;
 
 import io.swagger.model.*;
-import io.swagger.api.PetsApiService;
-import io.swagger.api.factories.PetsApiServiceFactory;
+import io.swagger.api.FernandoApiService;
+import io.swagger.api.factories.FernandoApiServiceFactory;
 
 import io.swagger.annotations.ApiParam;
 import io.swagger.jaxrs.*;
@@ -22,13 +22,13 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.SecurityContext;
 import javax.ws.rs.*;
 
-@Path("/pets")
+@Path("/fernando")
 
 
-@io.swagger.annotations.Api(description = "the pets API")
+@io.swagger.annotations.Api(description = "the fernando API")
 @javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2017-04-27T15:28:55.014Z")
-public class PetsApi  {
-   private final PetsApiService delegate = PetsApiServiceFactory.getPetsApi();
+public class FernandoApi  {
+   private final FernandoApiService delegate = FernandoApiServiceFactory.getFernandoApi();
 
     @POST
     

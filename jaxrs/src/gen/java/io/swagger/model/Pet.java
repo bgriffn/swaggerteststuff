@@ -39,7 +39,7 @@ import java.util.List;
 /**
  * Pet
  */
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2017-04-27T15:14:25.420Z")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaJerseyServerCodegen", date = "2017-04-27T15:28:55.014Z")
 public class Pet   {
   @JsonProperty("id")
   private Long id = null;
