@@ -20,6 +20,7 @@ public class PetsApiServiceImpl extends PetsApiService {
     @Override
     public Response addPet(Pet body, SecurityContext securityContext) throws NotFoundException {
         // do some magic!
+        System.out.println("LOL");
         return Response.ok().entity(new ApiResponseMessage(ApiResponseMessage.OK, "magic!")).build();
     }
     @Override
