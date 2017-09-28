@@ -1,1 +1,1 @@
-{"swagger":"2.0","info":{"description":"You should see \"ErrorModel\" down below..","version":"1.0.0","title":"Inline Me"},"paths":{},"definitions":{"InlineMe":{"$ref":"https://dev-api.swaggerhub.com/domains/testupgratebg2/inlinedom/1.0.0#/definitions/ErrorModel"}}}
+{"swagger":"2.0","info":{"description":"You should see \"ErrorModel\" down below..","version":"1.0.0","title":"Inline MeDEV"},"paths":{},"definitions":{"InlineMe":{"$ref":"https://dev-api.swaggerhub.com/domains/testupgratebg2/inlinedom/1.0.0#/definitions/ErrorModel"}}}
