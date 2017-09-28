@@ -3,7 +3,7 @@ swagger: "2.0"
 info:
   description: "You should see \"ErrorModel\" down below.."
   version: "1.0.0"
-  title: "Inline Me"
+  title: "Inline MeDEV"
 paths: {}
 definitions:
   InlineMe:
