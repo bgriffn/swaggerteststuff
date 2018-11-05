@@ -1,6 +1,6 @@
 /*
  * Simple Inventory API
- * This is a simple API xkkx
+ * This is a simple API xkkxd
  *
  * OpenAPI spec version: 1.0.0
  * Contact: you@your-company.com
@@ -14,7 +14,7 @@
 package io.swagger.client.api;
 
 import io.swagger.client.ApiException;
-import io.swagger.client.model.InventoryItemXXXX;
+import io.swagger.client.model.InventoryItem;
 import org.junit.Test;
 import org.junit.Ignore;
 
@@ -42,7 +42,7 @@ public class AdminsApiTest {
      */
     @Test
     public void addInventoryTest() throws ApiException {
-        InventoryItemXXXX inventoryItem = null;
+        InventoryItem inventoryItem = null;
         api.addInventory(inventoryItem);
 
         // TODO: test validations

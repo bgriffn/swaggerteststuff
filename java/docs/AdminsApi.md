@@ -23,7 +23,7 @@ Adds an item to the system
 
 
 AdminsApi apiInstance = new AdminsApi();
-InventoryItemXXXX inventoryItem = new InventoryItemXXXX(); // InventoryItemXXXX | Inventory item to add
+InventoryItem inventoryItem = new InventoryItem(); // InventoryItem | Inventory item to add
 try {
     apiInstance.addInventory(inventoryItem);
 } catch (ApiException e) {
@@ -36,7 +36,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **inventoryItem** | [**InventoryItemXXXX**](InventoryItemXXXX.md)| Inventory item to add | [optional]
+ **inventoryItem** | [**InventoryItem**](InventoryItem.md)| Inventory item to add | [optional]
 
 ### Return type
 

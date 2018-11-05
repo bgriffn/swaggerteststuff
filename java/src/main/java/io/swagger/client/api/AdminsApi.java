@@ -1,6 +1,6 @@
 /*
  * Simple Inventory API
- * This is a simple API xkkx
+ * This is a simple API xkkxd
  *
  * OpenAPI spec version: 1.0.0
  * Contact: you@your-company.com
@@ -27,7 +27,7 @@ import com.google.gson.reflect.TypeToken;
 import java.io.IOException;
 
 
-import io.swagger.client.model.InventoryItemXXXX;
+import io.swagger.client.model.InventoryItem;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
@@ -62,7 +62,7 @@ public class AdminsApi {
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
      */
-    public com.squareup.okhttp.Call addInventoryCall(InventoryItemXXXX inventoryItem, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
+    public com.squareup.okhttp.Call addInventoryCall(InventoryItem inventoryItem, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
         Object localVarPostBody = inventoryItem;
 
         // create path and map variables
@@ -104,7 +104,7 @@ public class AdminsApi {
     }
 
     @SuppressWarnings("rawtypes")
-    private com.squareup.okhttp.Call addInventoryValidateBeforeCall(InventoryItemXXXX inventoryItem, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
+    private com.squareup.okhttp.Call addInventoryValidateBeforeCall(InventoryItem inventoryItem, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
         
 
         com.squareup.okhttp.Call call = addInventoryCall(inventoryItem, progressListener, progressRequestListener);
@@ -118,7 +118,7 @@ public class AdminsApi {
      * @param inventoryItem Inventory item to add (optional)
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public void addInventory(InventoryItemXXXX inventoryItem) throws ApiException {
+    public void addInventory(InventoryItem inventoryItem) throws ApiException {
         addInventoryWithHttpInfo(inventoryItem);
     }
 
@@ -129,7 +129,7 @@ public class AdminsApi {
      * @return ApiResponse&lt;Void&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public ApiResponse<Void> addInventoryWithHttpInfo(InventoryItemXXXX inventoryItem) throws ApiException {
+    public ApiResponse<Void> addInventoryWithHttpInfo(InventoryItem inventoryItem) throws ApiException {
         com.squareup.okhttp.Call call = addInventoryValidateBeforeCall(inventoryItem, null, null);
         return apiClient.execute(call);
     }
@@ -142,7 +142,7 @@ public class AdminsApi {
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
      */
-    public com.squareup.okhttp.Call addInventoryAsync(InventoryItemXXXX inventoryItem, final ApiCallback<Void> callback) throws ApiException {
+    public com.squareup.okhttp.Call addInventoryAsync(InventoryItem inventoryItem, final ApiCallback<Void> callback) throws ApiException {
 
         ProgressResponseBody.ProgressListener progressListener = null;
         ProgressRequestBody.ProgressRequestListener progressRequestListener = null;

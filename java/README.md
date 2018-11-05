@@ -71,7 +71,7 @@ public class AdminsApiExample {
     public static void main(String[] args) {
         
         AdminsApi apiInstance = new AdminsApi();
-        InventoryItemXXXX inventoryItem = new InventoryItemXXXX(); // InventoryItemXXXX | Inventory item to add
+        InventoryItem inventoryItem = new InventoryItem(); // InventoryItem | Inventory item to add
         try {
             apiInstance.addInventory(inventoryItem);
         } catch (ApiException e) {

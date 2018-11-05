@@ -1,6 +1,6 @@
 /*
  * Simple Inventory API
- * This is a simple API xkkx
+ * This is a simple API xkkxd
  *
  * OpenAPI spec version: 1.0.0
  * Contact: you@your-company.com
@@ -28,7 +28,7 @@ import java.util.UUID;
 /**
  * InventoryItem
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-11-05T15:39:43.511Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-11-05T15:48:13.010Z")
 public class InventoryItem {
   @SerializedName("id")
   private UUID id = null;
