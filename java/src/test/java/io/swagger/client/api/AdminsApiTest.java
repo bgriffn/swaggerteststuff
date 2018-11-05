@@ -14,7 +14,7 @@
 package io.swagger.client.api;
 
 import io.swagger.client.ApiException;
-import io.swagger.client.model.InventoryItem;
+import io.swagger.client.model.InventoryItemXXXX;
 import org.junit.Test;
 import org.junit.Ignore;
 
@@ -42,7 +42,7 @@ public class AdminsApiTest {
      */
     @Test
     public void addInventoryTest() throws ApiException {
-        InventoryItem inventoryItem = null;
+        InventoryItemXXXX inventoryItem = null;
         api.addInventory(inventoryItem);
 
         // TODO: test validations
