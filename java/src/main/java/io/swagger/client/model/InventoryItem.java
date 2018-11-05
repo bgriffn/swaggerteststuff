@@ -28,7 +28,7 @@ import java.util.UUID;
 /**
  * InventoryItem
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-11-05T15:39:14.119Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-11-05T15:39:43.511Z")
 public class InventoryItem {
   @SerializedName("id")
   private UUID id = null;
