@@ -1,6 +1,6 @@
 /*
  * Simple Inventory API
- * This is a simple API xkkxd
+ * This is a simple API xkkxdm
  *
  * OpenAPI spec version: 1.0.0
  * Contact: you@your-company.com

@@ -1,6 +1,6 @@
 /*
  * Simple Inventory API
- * This is a simple API xkkxd
+ * This is a simple API xkkxdm
  *
  * OpenAPI spec version: 1.0.0
  * Contact: you@your-company.com
@@ -16,7 +16,7 @@ package io.swagger.client;
 import java.util.Map;
 import java.util.List;
 
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-11-05T15:48:13.010Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-11-09T14:49:43.088Z")
 public class ApiException extends Exception {
     private int code = 0;
     private Map<String, List<String>> responseHeaders = null;
