@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   title: Simple Inventory API
-  description: This is a simple API
+  description: This is a simple API edit 2
   contact:
     email: you@your-company.com
   license:
