@@ -9,7 +9,7 @@ info:
     url: http://www.apache.org/licenses/LICENSE-2.0.html
   version: 1.0.0
 servers:
-- url: https://virtserver2.swaggerhub.com/mgv2Org/testapi/1.0.0
+- url: https://virtserver.swaggerhub.com/mgv2Org/testapi/1.0.0
   description: SwaggerHub API Auto Mocking
 - url: https://virtserver2.swaggerhub.com/mgv2Org/testapi/1.0.0
   description: SwaggerHub API Auto Mocking2
@@ -54,7 +54,7 @@ paths:
         style: form
         explode: true
         schema:
-          maximum: 50
+          maximum: 50.0
           minimum: 0
           type: integer
           format: int32
