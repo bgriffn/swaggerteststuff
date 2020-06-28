@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   title: Simple Inventory API
-  description: This is a simple API edit 2 aap1 2
+  description: This is a simple API edit 2 aap1 3
   contact:
     email: you@your-company.com
   license:
@@ -54,7 +54,7 @@ paths:
         style: form
         explode: true
         schema:
-          maximum: 50.0
+          maximum: 50
           minimum: 0
           type: integer
           format: int32
