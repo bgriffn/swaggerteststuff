@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  description: This is a simple API
+  description: This is a simple API push after upgrade to 1.26
   version: 1.0.0
   title: Simple Inventory API
   # put the contact info for your development or API team
